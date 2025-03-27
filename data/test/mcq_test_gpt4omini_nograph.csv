@@ -1,0 +1,1137 @@
+question,[http] {{question}}
+"Out of the given list, which Gene is associated with psoriasis and Takayasus arteritis. Given list is: SHTN1, HLA-B,  SLC14A2,  BTBD9,  DTNB","[PASS] The gene associated with both psoriasis and Takayasu's arteritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriasis and myelodysplastic syndrome. Given list is:  NOD2,  CHEK2, HLA-B, GCKR,  PKNOX2","[PASS] Based on the provided context, the gene associated with psoriasis and myelodysplastic syndrome is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriasis and herpes zoster. Given list is:  MIF, HLA-B,  PLA2G6,  SCN1A, KITLG","[PASS] Based on the provided context, the gene associated with psoriasis and herpes zoster is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriasis and allergic rhinitis. Given list is:  ATP2B1, HLA-B,  STAT4,  TERT, FADS1","[PASS] Based on the provided context, the genes associated with psoriasis and allergic rhinitis are HLA-B and STAT4.
+
+Provenance of this association is GWAS.
+
+Note: GWAS stands for Genome-Wide Association Study, and the association is reported in the GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriasis and diffuse large B-cell lymphoma. Given list is:  PTPRD, XBP1,  BRCA2,  DMRT1, HLA-B","[PASS] Based on the provided context, the gene associated with psoriasis and diffuse large B-cell lymphoma is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriasis and psoriatic arthritis. Given list is:  IGF2BP2,  GRAMD1B, TNRC18,  SFRP4, HLA-B","[PASS] Based on the provided context, the gene associated with psoriasis and psoriatic arthritis is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with membranous glomerulonephritis and autoimmune hepatitis. Given list is:  RBFOX1,  RORA, IL2RA,  BTC, HLA-DQA1","[FAIL] The output mentions IL2RA, which does not match HLA-DQA1.
+---
+The gene associated with membranous glomerulonephritis and autoimmune hepatitis from the given list is IL2RA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with membranous glomerulonephritis and immunoglobulin alpha deficiency. Given list is: HLA-DQA1,  ADH1B,  TM6SF2, TERT,  IL2RA","[PASS] The gene associated with membranous glomerulonephritis and immunoglobulin alpha deficiency is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with membranous glomerulonephritis and collagenous colitis. Given list is: HLA-DQA1,  STAT4, ATXN2,  GNE,  RAD51B","[PASS] The gene associated with membranous glomerulonephritis and collagenous colitis is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with membranous glomerulonephritis and cutaneous lupus erythematosus. Given list is:  ZFHX3,  HLA-DQA1, EPDR1,  CRTC1, HLA-DQA1","[PASS] The gene associated with membranous glomerulonephritis and cutaneous lupus erythematosus from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with membranous glomerulonephritis and cervix carcinoma. Given list is:  PSCA, HLA-DQA1,  KALRN, HLA-DQA1,  HLA-DRB5","[PASS] The gene associated with membranous glomerulonephritis and cervix carcinoma from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with periodontitis and primary angle-closure glaucoma. Given list is: EPDR1,  TYR, IL23R,  STN1,  PRNP","[FAIL] The output mentions IL23R as the associated gene, but the rubric specifies EPDR1, which is not mentioned in the output.
+---
+The gene associated with periodontitis and primary angle-closure glaucoma from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Hodgkins lymphoma and Hodgkins lymphoma, nodular sclerosis. Given list is: SHTN1,  ERAP1, GATA3,  XBP1,  FTO","[FAIL] The output mentions XBP1 as the gene associated with Hodgkin's lymphoma, but the rubric specifies GATA3.
+---
+The gene associated with Hodgkin's lymphoma and Hodgkin's lymphoma, nodular sclerosis is **XBP1**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with limited scleroderma and allergic rhinitis. Given list is: TLR1, WNT4,  HLA-DPA1,  PSCA,  DTNB","[FAIL] The output identifies the gene as HLA-DPA1, which does not mention TLR1.
+---
+The gene associated with limited scleroderma and allergic rhinitis from the given list is HLA-DPA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with malaria and duodenal ulcer. Given list is:  TP53, ABO, HLA-DPA1,  ADGRV1,  GNE","[PASS] The gene associated with malaria and duodenal ulcer from the given list is ABO. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with malaria and pancreatic carcinoma. Given list is: ABO,  HLA-DPA1,  TNRC6B,  JAK2, TERT","[FAIL] The output mentions HLA-DPA1, which does not match ABO as required by the rubric.
+---
+The gene associated with both malaria and pancreatic carcinoma from the given list is **HLA-DPA1**. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with focal epilepsy and epilepsy. Given list is: SCN1A,  ABCG2, DTNB,  LRMDA,  CPS1","[PASS] The gene associated with focal epilepsy and epilepsy from the given list is SCN1A. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with hypertrophic cardiomyopathy and dilated cardiomyopathy. Given list is:  ZFPM2,  HLA-B,  BRCA2, MST1, MYH7","[PASS] The gene associated with hypertrophic cardiomyopathy and dilated cardiomyopathy from the given list is MYH7. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with inflammatory bowel disease and ankylosing spondylitis. Given list is:  HOXD3, HNF1B,  TYR, IL23R,  TRAF3IP2","[PASS] The gene associated with inflammatory bowel disease and ankylosing spondylitis from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with inflammatory bowel disease and ulcerative colitis. Given list is:  GATA3,  IL10,  HOXD3, IL23R, TNFSF15","[PASS] The gene associated with inflammatory bowel disease and ulcerative colitis from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with inflammatory bowel disease and Crohns disease. Given list is:  TNRC6B,  ARMS2, RORA,  MORC4, IL23R","[PASS] The gene associated with inflammatory bowel disease and Crohn's disease from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and triple-receptor negative breast cancer. Given list is:  TERT,  FER, TERT,  PCDH15, PTK2B","[PASS] The gene associated with interstitial lung disease and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and idiopathic pulmonary fibrosis. Given list is:  ATXN2, ERAP1,  RBFOX1,  NANOS1, TERT","[PASS] The gene associated with interstitial lung disease and idiopathic pulmonary fibrosis from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and myeloproliferative neoplasm. Given list is:  ZFPM2,  IL23R, TERT,  THADA, IL23R","[PASS] The gene associated with interstitial lung disease and myeloproliferative neoplasm from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and central nervous system cancer. Given list is:  FGFR2, TERT,  HLA-DQA1,  GTF2I, SLC14A2","[PASS] The gene associated with interstitial lung disease and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and estrogen-receptor negative breast cancer. Given list is: TERT,  CACNB2,  ERAP1, PRKAA1,  SHTN1","[PASS] The gene associated with interstitial lung disease and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and lung adenocarcinoma. Given list is:  CHST11, SYT14, TERT,  BARD1,  USHBP1","[PASS] The gene associated with interstitial lung disease and lung adenocarcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with interstitial lung disease and lung carcinoma. Given list is:  BTN2A1,  BRCA2,  STAT3, TERT, TFAP2B","[PASS] The gene associated with interstitial lung disease and lung carcinoma from the given list is **TERT**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and interstitial lung disease. Given list is:  ADGRG6,  FGFR2,  AFAP1, TERT, YLPM1","[PASS] The gene associated with triple-receptor negative breast cancer and interstitial lung disease is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and idiopathic pulmonary fibrosis. Given list is: CRTC1, TERT,  ATG5,  WNT10A,  ULK4","[PASS] The gene associated with triple-receptor negative breast cancer and idiopathic pulmonary fibrosis is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and myeloproliferative neoplasm. Given list is:  ERAP1,  SNCA, TERT,  ULK4, ADGRG6","[PASS] The gene associated with triple-receptor negative breast cancer and myeloproliferative neoplasm is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and central nervous system cancer. Given list is:  PLG,  HLA-DQA1, IL6,  ATXN2, TERT","[PASS] The gene associated with triple-receptor negative breast cancer and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and estrogen-receptor negative breast cancer. Given list is: TERT,  KIT,  DGKK, ATP2B1,  IL6","[PASS] The gene associated with triple-receptor negative breast cancer and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and lung adenocarcinoma. Given list is: TERT,  POU5F1B,  PLG, IGF1R,  LRMDA","[PASS] The gene associated with triple-receptor negative breast cancer and lung adenocarcinoma is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with triple-receptor negative breast cancer and lung carcinoma. Given list is:  PTPN22, C5, TERT,  FCGR2A,  FADS2","[PASS] The gene associated with triple-receptor negative breast cancer and lung carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung small cell carcinoma and opiate dependence. Given list is:  CFH,  CLPTM1L, TERT,  FAT3, ADGRV1","[FAIL] The output identifies CLPTM1L as the relevant gene, whereas the rubric specifies ADGRV1, which is not mentioned in the output.
+---
+The gene associated with lung small cell carcinoma and opiate dependence from the given list is **CLPTM1L**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung small cell carcinoma and cervix carcinoma. Given list is: TERT, ADGRV1,  PHGDH,  CACNA1D,  TFAP2B","[FAIL] The output discusses TERT, not ADGRV1.
+---
+The gene associated with lung small cell carcinoma and cervix carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with male breast cancer and urticaria. Given list is:  BABAM1, RAD51B,  PHGDH, ABO,  TERT","[FAIL] The output specifies the gene TERT, not RAD51B, as being associated with male breast cancer and urticaria.
+---
+The gene associated with male breast cancer and urticaria from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and interstitial lung disease. Given list is:  COL22A1,  KIF1B, TERT,  CLPTM1L, HLA-DQA1","[PASS] The gene associated with idiopathic pulmonary fibrosis and interstitial lung disease from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and triple-receptor negative breast cancer. Given list is:  RELN, TERT,  PLA2R1, DNMT3A,  ABO","[PASS] The gene associated with idiopathic pulmonary fibrosis and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and myeloproliferative neoplasm. Given list is: STAT4,  UMOD,  ADGRV1,  UMPS, TERT","[PASS] The gene associated with idiopathic pulmonary fibrosis and myeloproliferative neoplasm from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and central nervous system cancer. Given list is: LOXL1, TERT,  KALRN,  RP1,  IL6","[PASS] The gene associated with idiopathic pulmonary fibrosis and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and estrogen-receptor negative breast cancer. Given list is: TERT,  TNFSF15, NTM,  IGF2BP2,  STN1","[PASS] The gene associated with idiopathic pulmonary fibrosis and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and lung adenocarcinoma. Given list is: HLA-B,  CFH,  PSCA, TERT,  USHBP1","[PASS] The gene associated with idiopathic pulmonary fibrosis and lung adenocarcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with idiopathic pulmonary fibrosis and lung carcinoma. Given list is: ABCG2,  SULT1B1,  ERAP1, TERT,  CHST11","[PASS] The gene associated with idiopathic pulmonary fibrosis and lung carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with thyroid gland papillary carcinoma and hypothyroidism. Given list is:  CLPTM1L,  MYBPC3,  FAM227B, VAV3, PRNP","[FAIL] The output mentions the gene CLPTM1L, not VAV3 as required in the rubric.
+---
+The gene associated with thyroid gland papillary carcinoma and hypothyroidism from the given list is CLPTM1L. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with thyroid gland papillary carcinoma and differentiated thyroid gland carcinoma. Given list is:  ACOXL, POU5F1B, VAV3,  PSCA,  ZFPM2","[FAIL] The output identifies the gene as POU5F1B, which does not match VAV3 as specified in the rubric.
+---
+The gene associated with thyroid gland papillary carcinoma and differentiated thyroid gland carcinoma from the given list is **POU5F1B**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with mature B-cell neoplasm and androgenic alopecia. Given list is:  HLA-DPA1,  PRKAG2, ERAP1, SLC14A2,  FER","[FAIL] The output specifies HLA-DPA1 as the associated gene, not SLC14A2.
+---
+The gene associated with both mature B-cell neoplasm and androgenic alopecia from the given list is HLA-DPA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with mature B-cell neoplasm and cocaine dependence. Given list is:  TLR1, SLC14A2,  SCN1A,  IL12RB2, PLG","[FAIL] The output mentions IL12RB2 as the gene but does not mention SLC14A2, which was expected as per the rubric.
+---
+The gene associated with both mature B-cell neoplasm and cocaine dependence is IL12RB2. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with hepatitis B and lymphoma. Given list is:  KALRN, HLA-DQB2,  ALDH1A2, STAT4,  FBN1","[FAIL] The output specifies STAT4 as the gene associated with hepatitis B and lymphoma, not HLA-DQB2.
+---
+The gene associated with hepatitis B and lymphoma from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and membranous glomerulonephritis. Given list is:  STAT4, HLA-DQA1, TNFSF13,  CFH,  KITLG","[PASS] The gene associated with autoimmune hepatitis and membranous glomerulonephritis from the given list is **HLA-DQA1**. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and oral cavity cancer. Given list is:  CACNA2D1, HLF,  SULT1B1, HLA-DQB1,  DLEU7","[PASS] The gene associated with autoimmune hepatitis and oral cavity cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and immunoglobulin alpha deficiency. Given list is: HLA-DQA1,  HLA-DQB1,  UCK2,  PLA2R1, HLA-DQA1","[PASS] The gene associated with autoimmune hepatitis and immunoglobulin alpha deficiency from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and collagenous colitis. Given list is:  KALRN,  TERT, PLA2R1,  NANOS1, HLA-DQA1","[PASS] The gene associated with autoimmune hepatitis and collagenous colitis from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and oropharynx cancer. Given list is:  EYA2,  LOXL1,  BTBD9, TMEM71, HLA-DQB1","[PASS] The gene associated with autoimmune hepatitis and oropharynx cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and nephrotic syndrome. Given list is:  IGF1R, HLA-DQB1,  IL2RA,  SLC17A4, EPDR1","[PASS] The gene associated with autoimmune hepatitis and nephrotic syndrome from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and rheumatic heart disease. Given list is:  KAT2B, HLA-DQB1,  GSDMB,  ALDH1A2, THADA","[PASS] The gene associated with autoimmune hepatitis and rheumatic heart disease from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and cutaneous lupus erythematosus. Given list is:  PTPN22, HLA-DQA1,  CACNB2, CCDC33,  IL2RA","[FAIL] The output mentions PTPN22 as the associated gene, not HLA-DQA1.
+---
+The gene associated with autoimmune hepatitis and cutaneous lupus erythematosus from the given list is PTPN22. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with autoimmune hepatitis and cervix carcinoma. Given list is:  FAT3,  HLA-DPA1, HLA-DQA1, CACNA1S,  CACNA2D1","[FAIL] The output mentions HLA-DPA1, not HLA-DQA1.
+---
+The gene associated with autoimmune hepatitis and cervix carcinoma from the given list is HLA-DPA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with primary angle-closure glaucoma and periodontitis. Given list is: EPDR1,  ADH1B,  USHBP1,  POU5F1B, SHTN1","[PASS] The gene associated with primary angle-closure glaucoma and periodontitis from the given list is EPDR1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with non-alcoholic fatty liver disease and liver cirrhosis. Given list is:  IL23R, RP1,  PSCA, PNPLA3,  PLG","[PASS] The gene associated with non-alcoholic fatty liver disease and liver cirrhosis from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with non-alcoholic fatty liver disease and non-alcoholic steatohepatitis. Given list is: C5AR1, PNPLA3,  ABCG2,  BTC,  UMPS","[PASS] The gene associated with non-alcoholic fatty liver disease and non-alcoholic steatohepatitis from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with hypothyroidism and thyroid gland papillary carcinoma. Given list is:  PRKACB, FAM13A, VAV3,  ZFPM2,  TERT","[FAIL] The output mentions TERT, not VAV3.
+---
+The gene associated with hypothyroidism and thyroid gland papillary carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with hypothyroidism and differentiated thyroid gland carcinoma. Given list is:  PNPLA3,  RELN,  RP1, STAT4, VAV3","[FAIL] The output mentions STAT4 as the gene associated with hypothyroidism and thyroid carcinoma, not VAV3 as required.
+---
+The gene associated with hypothyroidism and differentiated thyroid gland carcinoma from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with liver cirrhosis and non-alcoholic fatty liver disease. Given list is:  HYKK, PLA2G6,  ADH1B, PNPLA3,  RGS14","[PASS] The gene associated with liver cirrhosis and non-alcoholic fatty liver disease from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with liver cirrhosis and head and neck cancer. Given list is: CACNA2D1,  HLA-DQA1,  ADGRV1, YLPM1,  STN1","[FAIL] The output identifies HLA-DQA1 as the gene, not CACNA2D1.
+---
+The gene associated with liver cirrhosis and head and neck cancer from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with liver cirrhosis and non-alcoholic steatohepatitis. Given list is:  SCN1A,  EYA2,  CACNA2D1, HBB, PNPLA3","[PASS] The gene associated with liver cirrhosis and non-alcoholic steatohepatitis from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with liver cirrhosis and uveal melanoma. Given list is:  VAV3,  PSCA, CACNA2D1,  NTM, SULT1B1","[FAIL] The output identifies SULT1B1 as the gene, not CACNA2D1.
+---
+The gene associated with liver cirrhosis and uveal melanoma from the given list is **SULT1B1**. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with Takayasus arteritis and psoriasis. Given list is:  ABCG2, HLA-B,  CACNA1C, RGS14,  PTPN22","[PASS] The gene associated with Takayasu's arteritis and psoriasis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Takayasus arteritis and myelodysplastic syndrome. Given list is:  CCDC33,  PCDH15, RBFOX1, HLA-B,  ERAP1","[PASS] The gene associated with Takayasus arteritis and myelodysplastic syndrome from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Takayasus arteritis and herpes zoster. Given list is: HLA-B,  STAT6,  HLA-DQA1, HBB,  CFH","[PASS] The gene associated with Takayasus arteritis and herpes zoster is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Takayasus arteritis and allergic rhinitis. Given list is: HLA-DQB2,  CRTC1,  FAM13A,  TNRC6B, HLA-B","[PASS] The gene associated with Takayasus arteritis and allergic rhinitis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Takayasus arteritis and diffuse large B-cell lymphoma. Given list is: HLA-B,  PLG,  BRCA2,  PNPLA3, PBX2","[PASS] The gene associated with Takayasus arteritis and diffuse large B-cell lymphoma from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Takayasus arteritis and psoriatic arthritis. Given list is:  RELN, HLA-B,  HLA-B,  SNTB1, SCN1A","[PASS] The gene associated with Takayasus arteritis and psoriatic arthritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with oral cavity cancer and autoimmune hepatitis. Given list is:  KAT2B, TTLL5, HLA-DQB1,  HOXD3,  SAMM50","[PASS] The gene associated with both oral cavity cancer and autoimmune hepatitis from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with oral cavity cancer and oropharynx cancer. Given list is:  GCKR, HLA-DQB1, CACNA1S,  TNFSF15,  RAD51B","[PASS] The gene associated with oral cavity cancer and oropharynx cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with oral cavity cancer and nephrotic syndrome. Given list is: ARMS2, HLA-DQB1,  LOXL1,  HLA-B,  ACOXL","[PASS] The gene associated with both oral cavity cancer and nephrotic syndrome from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with oral cavity cancer and rheumatic heart disease. Given list is: HLA-DQB1,  HBB, TNNT2,  ITPA,  HLA-DQB1","[PASS] The gene associated with oral cavity cancer and rheumatic heart disease from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with oral cavity cancer and pancreatic carcinoma. Given list is: CLPTM1L,  CASZ1, AKAP6,  HERC2,  IL6","[FAIL] The output mentions IL6 as the associated gene, but it does not mention CLPTM1L as specified in the rubric.
+---
+The gene associated with oral cavity cancer and pancreatic carcinoma from the given list is IL6. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with immunoglobulin alpha deficiency and membranous glomerulonephritis. Given list is: HLA-DQA1, HLA-DQB1,  MYH7,  TNRC6B,  CRTC1","[PASS] The gene associated with immunoglobulin alpha deficiency and membranous glomerulonephritis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with immunoglobulin alpha deficiency and autoimmune hepatitis. Given list is:  SLC14A2,  PRKAG2, HLA-DQA1, HLA-DQA1,  PLG","[PASS] The gene associated with immunoglobulin alpha deficiency and autoimmune hepatitis from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with immunoglobulin alpha deficiency and collagenous colitis. Given list is: GATA3, HLA-DQA1,  SNTB1,  CHEK2,  HLA-DRB5","[FAIL] The content mentions GATA3, not HLA-DQA1, which means it does not meet the rubric requirement.
+---
+The gene associated with immunoglobulin alpha deficiency and collagenous colitis is GATA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with immunoglobulin alpha deficiency and cutaneous lupus erythematosus. Given list is:  PLA2R1,  DTNB,  FER, HLA-DQA1, PINX1","[PASS] The gene associated with immunoglobulin alpha deficiency and cutaneous lupus erythematosus is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with immunoglobulin alpha deficiency and cervix carcinoma. Given list is:  CLPTM1L,  STAT3, HLA-DQA1,  ABO, HLA-DPB1","[PASS] The gene associated with immunoglobulin alpha deficiency and cervix carcinoma from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and psoriasis. Given list is: VAV3,  TERT,  CLPTM1L,  PTPN22, HLA-B","[FAIL] The output identifies PTPN22 as the gene associated with the conditions, not HLA-B as required by the rubric.
+---
+The gene associated with myelodysplastic syndrome and psoriasis from the given list is PTPN22. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and Takayasus arteritis. Given list is: BTN3A1,  AKAP6,  CACNA2D1, HLA-B,  CACNA1A","[PASS] The gene associated with myelodysplastic syndrome and Takayasus arteritis from the given list is HLA-B. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and herpes zoster. Given list is:  DTNB, HLA-B, ATP2B1,  SLC14A2,  KALRN","[PASS] The gene associated with myelodysplastic syndrome and herpes zoster is HLA-B. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and allergic rhinitis. Given list is:  ARMS2,  CHEK2, HLA-B,  BTN3A1, GSDMB","[PASS] The gene associated with myelodysplastic syndrome and allergic rhinitis from the given list is HLA-B. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and diffuse large B-cell lymphoma. Given list is:  MIF,  TDP2, TMEM71,  HLA-DQA1, HLA-B","[PASS] The gene associated with myelodysplastic syndrome and diffuse large B-cell lymphoma from the given list is **HLA-B**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myelodysplastic syndrome and psoriatic arthritis. Given list is:  MST1,  BTNL2, HLA-B,  HERC2, HLA-DQB1","[FAIL] The output specifies HLA-DQB1 rather than HLA-B as the associated gene.
+---
+The gene associated with myelodysplastic syndrome and psoriatic arthritis from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with differentiated thyroid gland carcinoma and thyroid gland papillary carcinoma. Given list is:  ITPA, CHEK2,  CRTC1,  PLG, VAV3","[FAIL] The output identifies CRTC1 as the gene associated with thyroid carcinoma, not VAV3 as mentioned in the rubric.
+---
+The gene associated with differentiated thyroid gland carcinoma and thyroid gland papillary carcinoma from the given list is CRTC1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with differentiated thyroid gland carcinoma and hypothyroidism. Given list is:  ERAP1,  HLA-DQA1, VAV3, PINX1,  PCDH15","[FAIL] The response does not mention 'VAV3', which was expected based on the rubric.
+---
+The gene associated with differentiated thyroid gland carcinoma and hypothyroidism is **ERAP1**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Barretts esophagus and esophagus adenocarcinoma. Given list is:  HLA-DQB1, CRTC1, HLA-B,  CFH,  MYBPC3","[PASS] The gene associated with Barrett's esophagus and esophageal adenocarcinoma from the given list is CRTC1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ankylosing spondylitis and inflammatory bowel disease. Given list is:  LPP, UCK2,  YLPM1,  DAB2IP, IL23R","[PASS] The gene associated with ankylosing spondylitis and inflammatory bowel disease from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ankylosing spondylitis and ulcerative colitis. Given list is:  KIT, SAMM50, IL23R,  PSCA,  HLA-DQB1","[PASS] The gene associated with ankylosing spondylitis and ulcerative colitis from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ankylosing spondylitis and anterior uveitis. Given list is:  CFH,  XBP1, ERAP1, SYT14,  HNF1B","[PASS] The gene associated with ankylosing spondylitis and anterior uveitis from the given list is ERAP1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ankylosing spondylitis and Crohns disease. Given list is: IL23R,  HLA-DQB1,  TNRC18, EYA2,  SLC2A9","[PASS] The gene associated with ankylosing spondylitis and Crohn's disease from the given list is **IL23R**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with rheumatoid arthritis and myositis. Given list is:  STAT3, BARD1, PTPN22,  PRKN,  C5AR1","[PASS] The gene associated with rheumatoid arthritis and myositis from the given list is PTPN22. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with neuromyelitis optica and neurotic disorder. Given list is: TNRC18,  PCDH7,  CASZ1,  GATA3, TNXB","[FAIL] The output mentions GATA3 as the associated gene, which does not match the rubric's expected gene, 'TNXB'.
+---
+The gene associated with neuromyelitis optica and neurotic disorder from the given list is GATA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with collagenous colitis and membranous glomerulonephritis. Given list is:  PHACTR1,  CASZ1, PNPLA3, HLA-DQA1,  ATP2B1","[PASS] The gene associated with collagenous colitis and membranous glomerulonephritis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with collagenous colitis and autoimmune hepatitis. Given list is:  CACNA1D, HLA-DQA1,  AKAP6, MST1,  NTM","[PASS] The gene associated with collagenous colitis and autoimmune hepatitis from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with collagenous colitis and immunoglobulin alpha deficiency. Given list is:  EPAS1,  MYH7, RELN, HLA-DQA1,  KIT","[PASS] The gene associated with collagenous colitis and immunoglobulin alpha deficiency is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with collagenous colitis and cutaneous lupus erythematosus. Given list is:  MYH7, HLA-DQA1, HLA-DQA1,  TERT,  BARD1","[PASS] The gene associated with collagenous colitis and cutaneous lupus erythematosus from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with collagenous colitis and cervix carcinoma. Given list is:  NEURL1, TERT, HLA-DQA1,  TERT,  SLC17A4","[FAIL] The output names TERT as the gene associated with the conditions, but the rubric specifies HLA-DQA1.
+---
+The gene associated with collagenous colitis and cervix carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with dengue hemorrhagic fever and intracranial aneurysm. Given list is: RP1,  TLR1,  UCK2,  GNE, FADS1","[FAIL] The rubric 'RP1' is too vague to evaluate the output reliably.
+---
+The gene associated with dengue hemorrhagic fever and intracranial aneurysm from the given list is TLR1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with dengue hemorrhagic fever and wheat allergy. Given list is: RBFOX1,  EPDR1, BABAM1,  PTPN22,  WNT4","[FAIL] The output does not mention the gene RBFOX1, as it instead identifies PTPN22 as associated with the diseases mentioned.
+---
+The gene associated with dengue hemorrhagic fever and wheat allergy from the given list is PTPN22. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with neurotic disorder and neuromyelitis optica. Given list is: STAT4,  LACC1, TNXB,  UMPS,  SFRP4","[FAIL] The output does not mention TNXB, which was specified in the rubric.
+---
+The gene associated with neurotic disorder and neuromyelitis optica from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with head and neck cancer and liver cirrhosis. Given list is: TFAP2B,  TERT,  USHBP1, CACNA2D1,  CRTC1","[FAIL] The output discusses TERT, not CACNA2D1, therefore it does not match the rubric.
+---
+The gene associated with head and neck cancer and liver cirrhosis is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with head and neck cancer and uveal melanoma. Given list is:  ABO, CACNA2D1,  PSCA, TERT,  SULT1B1","[FAIL] The output identifies TERT as the associated gene, while CACNA2D1 is the expected gene based on the rubric.
+---
+The gene associated with head and neck cancer and uveal melanoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with age related macular degeneration and Kuhnt-Junius degeneration. Given list is: VAV3,  UGT1A8, CFH,  TP53,  HLA-DQA1","[PASS] The gene associated with age-related macular degeneration and Kuhnt-Junius degeneration from the given list is CFH. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with age related macular degeneration and kidney disease. Given list is:  RAD51B, CFH, C1orf127,  CASZ1,  HAAO","[PASS] The gene associated with age-related macular degeneration and kidney disease from the given list is CFH. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Kuhnt-Junius degeneration and age related macular degeneration. Given list is: CFH,  CACNA2D1, STAT4,  LACC1,  SFRP4","[PASS] The gene associated with Kuhnt-Junius degeneration and age-related macular degeneration from the given list is CFH. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Kuhnt-Junius degeneration and kidney disease. Given list is:  PRKACB,  MUC5B, TERT, CFH,  CACNA2D1","[FAIL] The output mentions 'TERT' as the gene associated with the disease, not 'CFH'.
+---
+The gene associated with Kuhnt-Junius degeneration and kidney disease from the given list is **TERT**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lymphoma and hepatitis B. Given list is: HLA-DQB2,  YLPM1,  MTTP,  HAAO, PTPN22","[FAIL] The output mentions PTPN22 instead of HLA-DQB2, so the information does not match the rubric.
+---
+The gene associated with lymphoma and hepatitis B from the given list is PTPN22. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and psoriasis. Given list is:  HLA-DQB1,  HOXD3,  FAM227B, DNMT3A, HLA-B","[PASS] The gene associated with herpes zoster and psoriasis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and Takayasus arteritis. Given list is:  FAM227B, PRKN,  CSNK2B, HLA-B,  FGFR2","[PASS] The gene associated with herpes zoster and Takayasu's arteritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and myelodysplastic syndrome. Given list is: HLA-B,  TMEM71, KITLG,  PTPRD,  AHR","[PASS] The gene associated with herpes zoster and myelodysplastic syndrome from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and allergic rhinitis. Given list is:  HLA-B, HLA-B, IGF2BP2,  CLPTM1L,  CACNA2D1","[PASS] The gene associated with herpes zoster and allergic rhinitis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and diffuse large B-cell lymphoma. Given list is: HLA-B,  ATXN2, SLC14A2,  EYA2,  POU5F1B","[PASS] The gene associated with herpes zoster and diffuse large B-cell lymphoma from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with herpes zoster and psoriatic arthritis. Given list is: HLA-B,  ADGRV1, CPS1,  SULT1B1,  ATG5","[PASS] The gene associated with herpes zoster and psoriatic arthritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with duodenal ulcer and malaria. Given list is: IGF1R,  HLA-DQA1,  USHBP1, ABO,  GTF2I","[FAIL] The output identifies HLA-DQA1, not ABO, as the gene associated with duodenal ulcer and malaria.
+---
+The gene associated with duodenal ulcer and malaria from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with duodenal ulcer and atrophic gastritis. Given list is:  SLC17A4,  GATA3, MST1, PSCA,  SCN1A","[PASS] The gene associated with duodenal ulcer and atrophic gastritis from the given list is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with duodenal ulcer and pancreatic carcinoma. Given list is:  YLPM1,  CFH, ABO, KALRN,  STAT6","[FAIL] The output does not mention 'ABO'; it specifies 'KALRN' instead.
+---
+The gene associated with duodenal ulcer and pancreatic carcinoma from the given list is KALRN. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with duodenal ulcer and gastric fundus cancer. Given list is:  CACNA1S,  MUC5B, FBN1, PSCA,  BTC","[PASS] The gene associated with duodenal ulcer and gastric fundus cancer from the given list is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with non-alcoholic steatohepatitis and non-alcoholic fatty liver disease. Given list is: HLA-DQB2,  ZFPM2,  KALRN, PNPLA3,  DENND1A","[PASS] The gene associated with non-alcoholic steatohepatitis and non-alcoholic fatty liver disease from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with non-alcoholic steatohepatitis and liver cirrhosis. Given list is: PNPLA3,  SULT1B1,  KIT,  AHR, FAM227B","[PASS] The gene associated with non-alcoholic steatohepatitis and liver cirrhosis from the given list is PNPLA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with oropharynx cancer and autoimmune hepatitis. Given list is: HLA-DQB1,  TNXB,  FBN1, C9,  BTN3A1","[PASS] The gene associated with oropharynx cancer and autoimmune hepatitis from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with oropharynx cancer and oral cavity cancer. Given list is: MYBPC3,  KIF1B,  DGKK, HLA-DQB1,  HLA-B","[PASS] The gene associated with oropharynx cancer and oral cavity cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with oropharynx cancer and nephrotic syndrome. Given list is:  FER, HLA-DQB1,  FTO, SLC2A9,  RAD51B","[PASS] The gene associated with oropharynx cancer and nephrotic syndrome from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with oropharynx cancer and rheumatic heart disease. Given list is: DENND1A, HLA-DQB1,  VRK2,  TERT,  CACNA1A","[PASS] The gene associated with oropharynx cancer and rheumatic heart disease from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with ulcerative colitis and inflammatory bowel disease. Given list is: SAMD9L, IL23R,  GATA3,  DNMT3A,  RAD51B","[PASS] The gene associated with ulcerative colitis and inflammatory bowel disease from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ulcerative colitis and ankylosing spondylitis. Given list is:  ALDH1A2, IL23R,  DTNB, SNTB1,  MYH7","[PASS] The gene associated with both ulcerative colitis and ankylosing spondylitis from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with ulcerative colitis and Crohns disease. Given list is: ZFHX3,  OPTN,  EML4, IL23R,  STN1","[PASS] The gene associated with ulcerative colitis and Crohn's disease from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with nephrotic syndrome and autoimmune hepatitis. Given list is:  TNIP1,  CACNA1C, SLC2A9, HLA-DQB1,  CSNK2B","[PASS] The gene associated with nephrotic syndrome and autoimmune hepatitis from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with nephrotic syndrome and oral cavity cancer. Given list is:  CRTC1, PLG,  AHR,  SLC14A2, HLA-DQB1","[PASS] The gene associated with nephrotic syndrome and oral cavity cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with nephrotic syndrome and oropharynx cancer. Given list is:  PRKAG2,  SYT14, VAV3, HLA-DQB1,  PNPLA3","[PASS] The gene associated with nephrotic syndrome and oropharynx cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with nephrotic syndrome and rheumatic heart disease. Given list is: GSDMB,  KALRN,  SNTB1, HLA-DQB1,  CRTC1","[PASS] The gene associated with nephrotic syndrome and rheumatic heart disease from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myositis and rheumatoid arthritis. Given list is:  C9, RORA,  TERT,  HLA-B, PTPN22","[PASS] The gene associated with myositis and rheumatoid arthritis from the given list is **PTPN22**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myositis and systemic scleroderma. Given list is:  BTNL2, DMRT1, STAT4,  CLPTM1L,  SLC2A9","[PASS] The gene associated with myositis and systemic scleroderma from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myositis and Sjogrens syndrome. Given list is: STAT4,  FTO, ACOXL,  MORC4,  TNXB","[PASS] The gene associated with myositis and Sjögren's syndrome from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with intracranial aneurysm and dengue hemorrhagic fever. Given list is: RP1, IGF1R,  BABAM1,  DLEU7,  ATG5","[FAIL] The rubric 'RP1' is not defined or clear, and no specific criteria are provided to evaluate the output.
+---
+The gene associated with both intracranial aneurysm and dengue hemorrhagic fever is IGF1R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with squamous cell carcinoma and estrogen-receptor negative breast cancer. Given list is: BRCA2,  RBFOX1, UCK2,  PNPLA3,  RAD51B","[PASS] The gene associated with squamous cell carcinoma and estrogen-receptor negative breast cancer from the given list is BRCA2. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with squamous cell carcinoma and lung squamous cell carcinoma. Given list is:  ARMS2, BRCA2,  BTBD9,  IL6, ALDH1A2","[FAIL] The output mentions IL6 associated with carcinoma, not BRCA2, which does not meet the rubric's criteria.
+---
+The gene associated with squamous cell carcinoma and lung squamous cell carcinoma from the given list is IL6. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with androgenic alopecia and mature B-cell neoplasm. Given list is:  TM6SF2, HLA-B, SLC14A2,  PHGDH,  TTLL5","[FAIL] The output identifies the gene HLA-B instead of SLC14A2 as associated with androgenic alopecia and mature B-cell neoplasm.
+---
+The gene associated with androgenic alopecia and mature B-cell neoplasm from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with androgenic alopecia and cocaine dependence. Given list is: GSDMB, SLC14A2,  ATXN2,  PNPLA3,  PRKACB","[FAIL] The output mentions ATXN2 as the gene associated with androgenic alopecia and cocaine dependence, not SLC14A2.
+---
+The gene associated with both androgenic alopecia and cocaine dependence from the given list is ATXN2. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with sclerosing cholangitis and endometrial cancer. Given list is:  FADS2,  RP1, ATXN2,  VRK2, PLA2G6","[PASS] The gene associated with sclerosing cholangitis and endometrial cancer from the given list is **ATXN2**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cocaine dependence and mature B-cell neoplasm. Given list is:  CHST11,  GSDMB, ERAP1,  TP63, SLC14A2","[PASS] The gene associated with cocaine dependence and mature B-cell neoplasm is **SLC14A2**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cocaine dependence and androgenic alopecia. Given list is:  ATG5,  ADGRV1, NEURL1, SLC14A2,  HLA-DPB1","[FAIL] The output identifies HLA-DPB1 as the gene of interest, not SLC14A2 as specified in the rubric.
+---
+The gene associated with cocaine dependence and androgenic alopecia from the given list is HLA-DPB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with epilepsy and focal epilepsy. Given list is:  NEURL1, SCN1A, HAAO,  CLDN14,  MYBPC3","[PASS] The gene associated with epilepsy and focal epilepsy from the given list is SCN1A. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and interstitial lung disease. Given list is:  LRMDA, TERT,  CLDN14, UCK2,  STAT3","[FAIL] The output mentions STAT3, not TERT, so it does not match the rubric.
+---
+The gene associated with myeloproliferative neoplasm and interstitial lung disease is **STAT3**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and triple-receptor negative breast cancer. Given list is:  ABO, SCN1A, TERT,  TGM2,  COL22A1","[PASS] The gene associated with myeloproliferative neoplasm and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and idiopathic pulmonary fibrosis. Given list is:  FBN1, TERT,  DLEU7,  IL2RA, PTK2B","[PASS] The gene associated with myeloproliferative neoplasm and idiopathic pulmonary fibrosis from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and central nervous system cancer. Given list is: WNT4, TERT,  VAV3,  ADH1B,  GATA3","[PASS] The gene associated with myeloproliferative neoplasm and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and estrogen-receptor negative breast cancer. Given list is:  STAT4,  MYH7, BTBD9,  ERAP1, TERT","[FAIL] The output identifies STAT4 as the gene associated with the conditions, not TERT.
+---
+The gene associated with myeloproliferative neoplasm and estrogen-receptor negative breast cancer from the given list is **STAT4**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and lung adenocarcinoma. Given list is:  SLC17A4,  STAT6, HLA-DQB1, TERT,  PRX","[PASS] The gene associated with myeloproliferative neoplasm and lung adenocarcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with myeloproliferative neoplasm and lung carcinoma. Given list is:  LPP,  TENM2, DMRT1, TERT,  UCK2","[PASS] The gene associated with myeloproliferative neoplasm and lung carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with rheumatic heart disease and autoimmune hepatitis. Given list is:  SPRED2,  TTLL5,  TLR1, ALDH1A2, HLA-DQB1","[PASS] The gene associated with rheumatic heart disease and autoimmune hepatitis from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with rheumatic heart disease and oral cavity cancer. Given list is: HLA-DQB1, IL23R,  TM6SF2,  BTC,  SYT14","[PASS] The gene associated with rheumatic heart disease and oral cavity cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with rheumatic heart disease and oropharynx cancer. Given list is:  PLA2G6, HLA-DQB1, IL23R,  FAM13A,  ADH1B","[PASS] The gene associated with rheumatic heart disease and oropharynx cancer from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with rheumatic heart disease and nephrotic syndrome. Given list is:  CACNA1D,  TFAP2B,  STAT4, HLA-DQB1, PTK2B","[PASS] The gene associated with rheumatic heart disease and nephrotic syndrome from the given list is HLA-DQB1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with atrophic gastritis and duodenal ulcer. Given list is:  HOXD3,  ATP2B1, PSCA, CDK8,  CACNA1A","[PASS] The gene associated with atrophic gastritis and duodenal ulcer from the given list is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with atrophic gastritis and gastric fundus cancer. Given list is: EYA2,  CDKAL1,  KAT2B,  PSCA, PSCA","[PASS] The gene associated with atrophic gastritis and gastric fundus cancer from the given list is PSCA. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with wheat allergy and dengue hemorrhagic fever. Given list is:  NEURL1, DLEU7,  DMRT1,  ADGRG6, RBFOX1","[FAIL] The output mentions ADGRG6, not RBFOX1.
+---
+The gene associated with both wheat allergy and dengue hemorrhagic fever from the given list is **ADGRG6**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with pulmonary hypertension and dermatomyositis. Given list is:  CLPTM1L,  C5, HLA-DPA1, AHR,  HLA-DQA1","[FAIL] The output mentions AHR, not HLA-DPA1.
+---
+The gene associated with pulmonary hypertension and dermatomyositis from the given list is AHR. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cutaneous lupus erythematosus and membranous glomerulonephritis. Given list is:  JAK2,  IL6, HLA-DQA1,  HNF1B, ZEB2","[PASS] The gene associated with cutaneous lupus erythematosus and membranous glomerulonephritis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cutaneous lupus erythematosus and autoimmune hepatitis. Given list is:  FGFR2,  TERT, HLA-DQA1, IL6,  HLA-DQB1","[PASS] The gene associated with cutaneous lupus erythematosus and autoimmune hepatitis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cutaneous lupus erythematosus and immunoglobulin alpha deficiency. Given list is: DTNB,  IL10,  TNXB,  FAM13A, HLA-DQA1","[FAIL] The output mentions IL10, not HLA-DQA1.
+---
+The gene associated with cutaneous lupus erythematosus and immunoglobulin alpha deficiency is IL10. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cutaneous lupus erythematosus and collagenous colitis. Given list is:  MUC5B,  DLEU7,  BRCA2, HLA-DQA1, THADA","[FAIL] The output specifies the gene as MUC5B, not HLA-DQA1.
+---
+The gene associated with cutaneous lupus erythematosus and collagenous colitis from the given list is **MUC5B**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cutaneous lupus erythematosus and cervix carcinoma. Given list is: PRX,  CDK8,  HIP1, HLA-DQA1,  RAD51B","[PASS] The gene associated with cutaneous lupus erythematosus and cervix carcinoma from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with systemic scleroderma and myositis. Given list is:  HLA-DPB1, STAT4,  UGT1A9, HLA-DQA1,  TNRC6B","[FAIL] The output indicates HLA-DPB1 as the associated gene, not STAT4.
+---
+The gene associated with systemic scleroderma and myositis from the given list is HLA-DPB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with systemic scleroderma and Sjogrens syndrome. Given list is:  KITLG, STAT4, SLC14A2,  COL22A1,  TDP2","[PASS] The gene associated with systemic scleroderma and Sjögren's syndrome from the given list is STAT4. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with childhood type dermatomyositis and dermatomyositis. Given list is: FTO,  PLA2G6,  ATP2B1, GSDMB,  BRCA2","[FAIL] The output refers to PLA2G6 as the gene associated with dermatomyositis, not GSDMB.
+---
+The gene associated with childhood type dermatomyositis and dermatomyositis from the given list is PLA2G6. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with central nervous system cancer and interstitial lung disease. Given list is:  ADGRV1,  TENM2, TERT, LRMDA,  CCDC33","[PASS] The gene associated with central nervous system cancer and interstitial lung disease from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and triple-receptor negative breast cancer. Given list is:  SLC17A4,  KITLG,  CAPN14, CACNA2D1, TERT","[PASS] The gene associated with central nervous system cancer and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and idiopathic pulmonary fibrosis. Given list is: TERT,  MORC4,  DMRT1, GRAMD1B,  GTF2I","[PASS] The gene associated with central nervous system cancer and idiopathic pulmonary fibrosis from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and myeloproliferative neoplasm. Given list is: TERT,  NOD2, HLA-DQB1,  SAMM50,  SFRP4","[PASS] The gene associated with central nervous system cancer and myeloproliferative neoplasm from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and estrogen-receptor negative breast cancer. Given list is:  BABAM1,  ABO, TERT, PHACTR1,  DTNB","[PASS] The gene associated with central nervous system cancer and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and lung adenocarcinoma. Given list is:  ADGRG6,  CDKAL1, TERT,  HLA-DPA1, BRCA2","[PASS] The gene associated with central nervous system cancer and lung adenocarcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with central nervous system cancer and lung carcinoma. Given list is: MYBPC3,  GCKR,  STAT4, TERT,  BTN2A1","[PASS] The gene associated with central nervous system cancer and lung carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with opiate dependence and lung small cell carcinoma. Given list is: IL23R,  HLA-DQB2, ADGRV1,  DLEU7,  RBFOX1","[FAIL] The output does not mention ADGRV1; it identifies RBFOX1 instead.
+---
+The gene associated with opiate dependence and lung small cell carcinoma from the given list is **RBFOX1**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with opiate dependence and cervix carcinoma. Given list is:  SCN1A, ADGRV1,  AHR, THADA,  CASZ1","[FAIL] The output identifies AHR as the associated gene, not ADGRV1 as required by the rubric.
+---
+The gene associated with opiate dependence and cervix carcinoma from the given list is AHR. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and interstitial lung disease. Given list is:  FAM227B,  PTPN22,  PSCA, ABO, TERT","[PASS] The gene associated with estrogen-receptor negative breast cancer and interstitial lung disease is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and triple-receptor negative breast cancer. Given list is: TRAF3IP2,  HBB, TERT,  HOXD3,  ATP2B1","[PASS] The gene associated with estrogen-receptor negative breast cancer and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and idiopathic pulmonary fibrosis. Given list is:  IL23R,  BTBD9,  SFRP4, PHGDH, TERT","[PASS] The gene associated with estrogen-receptor negative breast cancer and idiopathic pulmonary fibrosis is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and squamous cell carcinoma. Given list is: BRCA2, CLDN14,  HLA-DPB1,  HLA-DQB1,  MTTP","[PASS] The gene associated with estrogen-receptor negative breast cancer and squamous cell carcinoma from the given list is BRCA2. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and myeloproliferative neoplasm. Given list is: TERT,  HLA-DQB2,  BRCA2, GNE,  STAT3","[FAIL] The output mentions STAT3 as the gene associated with the conditions, not TERT.
+---
+The gene associated with estrogen-receptor negative breast cancer and myeloproliferative neoplasm is STAT3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and central nervous system cancer. Given list is:  FER,  CACNA1D, COL22A1,  TNFSF15, TERT","[PASS] The gene associated with estrogen-receptor negative breast cancer and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and lung adenocarcinoma. Given list is: SAMD9L,  PTPRD,  DAB2IP,  IL23R, TERT","[FAIL] The output does not mention TERT, but rather DAB2IP, and does not fulfill the rubric requirement.
+---
+The gene associated with estrogen-receptor negative breast cancer and lung adenocarcinoma is DAB2IP. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and lung squamous cell carcinoma. Given list is: BRCA2, SULT1B1,  SPRED2,  CHST11,  CCDC33","[PASS] The gene associated with estrogen-receptor negative breast cancer and lung squamous cell carcinoma from the given list is BRCA2. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with estrogen-receptor negative breast cancer and lung carcinoma. Given list is:  ABCG2,  GATA3,  TP53, TERT, PLA2G6","[FAIL] The output mentions TP53, not TERT, as the gene associated with the cancers. Thus, it does not fulfill the rubric requirement.
+---
+The gene associated with estrogen-receptor negative breast cancer and lung carcinoma from the given list is TP53. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with dermatomyositis and pulmonary hypertension. Given list is: TG, HLA-DPA1,  PNPLA3,  ZFPM2,  UMOD","[PASS] The gene associated with dermatomyositis and pulmonary hypertension from the given list is HLA-DPA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with dermatomyositis and childhood type dermatomyositis. Given list is: GSDMB,  HLA-DQA1,  ADH1B,  POU5F1B, HLA-B","[FAIL] The output mentions HLA-DQA1, not GSDMB, so it does not match the rubric.
+---
+The gene associated with dermatomyositis and childhood type dermatomyositis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with esophagus adenocarcinoma and Barretts esophagus. Given list is:  TERT, HLA-DQB2,  EPDR1,  PNPLA3, CRTC1","[FAIL] The output specifies TERT as the gene associated with the condition, but the rubric specifies CRTC1, making no match.
+---
+The gene associated with esophagus adenocarcinoma and Barrett's esophagus from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with kidney disease and age related macular degeneration. Given list is: CFH,  MUC5B,  DAB2IP,  BTN2A1, ADH1B","[PASS] The gene associated with kidney disease and age-related macular degeneration from the given list is CFH. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with kidney disease and Kuhnt-Junius degeneration. Given list is: CFH,  HLA-DQB2,  DNMT3A,  TNNT2, GATA3","[PASS] The gene associated with kidney disease and Kuhnt-Junius degeneration from the given list is CFH. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with anterior uveitis and ankylosing spondylitis. Given list is:  SYT14, TNFSF15,  UGT1A8,  HBB, ERAP1","[PASS] The gene associated with anterior uveitis and ankylosing spondylitis from the given list is ERAP1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with dilated cardiomyopathy and hypertrophic cardiomyopathy. Given list is:  TLR1,  IL23R, HLA-B, MYH7,  HLA-DQA1","[PASS] The gene associated with dilated cardiomyopathy and hypertrophic cardiomyopathy from the given list is MYH7. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with pancreatic carcinoma and malaria. Given list is:  HLA-DQA1,  CACNA1S, KAT2B, ABO,  ATXN2","[FAIL] The content mentions HLA-DQA1, not ABO.
+---
+The gene associated with both pancreatic carcinoma and malaria from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with pancreatic carcinoma and oral cavity cancer. Given list is:  GCKR, CLPTM1L,  CHST11, CRTC1,  COL22A1","[FAIL] The output mentions CRTC1, not CLPTM1L as specified in the rubric.
+---
+The gene associated with pancreatic carcinoma and oral cavity cancer from the given list is CRTC1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with pancreatic carcinoma and duodenal ulcer. Given list is: ABO,  CRTC1, CACNB2,  PSCA,  CDK8","[FAIL] The output specifies PSCA as the gene associated with pancreatic carcinoma and duodenal ulcer, not ABO.
+---
+The gene associated with pancreatic carcinoma and duodenal ulcer from the given list is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cervix carcinoma and membranous glomerulonephritis. Given list is: HLA-DQA1,  WNT4,  TNIP1, CAPN14,  DTNB","[FAIL] The output mentions TNIP1 as the gene associated with cervix carcinoma and membranous glomerulonephritis, not HLA-DQA1.
+---
+The gene associated with cervix carcinoma and membranous glomerulonephritis from the given list is TNIP1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cervix carcinoma and lung small cell carcinoma. Given list is:  TLR1,  SYT14,  VAV3, BTN2A1, ADGRV1","[FAIL] The output specifies VAV3 as the associated gene, not ADGRV1.
+---
+The gene associated with cervix carcinoma and lung small cell carcinoma from the given list is VAV3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cervix carcinoma and autoimmune hepatitis. Given list is: CHST11,  FAT3,  IL6,  ERAP1, HLA-DQA1","[FAIL] The output mentions IL6 as the associated gene, not HLA-DQA1.
+---
+The gene associated with cervix carcinoma and autoimmune hepatitis from the given list is IL6. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cervix carcinoma and immunoglobulin alpha deficiency. Given list is: SAMD9L,  CDK8, HLA-DQA1,  CFH,  PRKN","[PASS] The gene associated with cervix carcinoma and immunoglobulin alpha deficiency from the given list is HLA-DQA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with cervix carcinoma and collagenous colitis. Given list is: FAM227B,  HLA-B, HLA-DQA1,  CDKAL1,  PNPLA3","[PASS] The gene associated with cervix carcinoma and collagenous colitis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with cervix carcinoma and cutaneous lupus erythematosus. Given list is:  PRKN, HLA-DPA1,  VAV3,  RBFOX1, HLA-DQA1","[FAIL] The output mentions HLA-DPA1 instead of HLA-DQA1, which does not match the specified rubric.
+---
+The gene associated with cervix carcinoma and cutaneous lupus erythematosus from the given list is HLA-DPA1. 
+
+Provenance of this association is DISEASES database - https://diseases.jensenlab.org."
+"Out of the given list, which Gene is associated with cervix carcinoma and opiate dependence. Given list is: HYKK,  HOXD3,  HLA-DQA1, ADGRV1,  BRCA2","[FAIL] The output identifies HLA-DQA1, not ADGRV1 as stated in the rubric. There is no mention of ADGRV1 in the output.
+---
+The gene associated with cervix carcinoma and opiate dependence from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Hodgkins lymphoma, nodular sclerosis and Hodgkins lymphoma. Given list is: HLA-DQB2,  FADS2, GATA3,  TM6SF2,  CFH","[PASS] The gene associated with Hodgkin's lymphoma, specifically nodular sclerosis subtype, from the given list is GATA3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Sjogrens syndrome and myositis. Given list is:  HLA-DQA1,  KIT,  TERT, STAT4, TERT","[FAIL] The output states HLA-DQA1 as the gene associated with Sjögren's syndrome and myositis, not STAT4.
+---
+The gene associated with Sjögren's syndrome and myositis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Sjogrens syndrome and systemic scleroderma. Given list is:  BTN3A1,  HLA-DQB1, JAK2,  TGM2, STAT4","[FAIL] The output identifies HLA-DQB1 rather than STAT4 as the associated gene.
+---
+The gene associated with Sjögren's syndrome and systemic scleroderma from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Crohns disease and inflammatory bowel disease. Given list is:  HBB, TNRC18, IL23R,  RP1,  LOXL1","[PASS] The gene associated with Crohn's disease and inflammatory bowel disease from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Crohns disease and ankylosing spondylitis. Given list is:  YLPM1,  CHEK2,  ZEB2, HLA-DQA1, IL23R","[FAIL] The output does not mention IL23R but instead mentions HLA-DQA1 as associated with Crohn's disease and ankylosing spondylitis.
+---
+The gene associated with Crohn's disease and ankylosing spondylitis from the given list is HLA-DQA1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with Crohns disease and ulcerative colitis. Given list is:  CAPN14,  LPP,  UMPS, RBFOX1, IL23R","[PASS] The gene associated with Crohn's disease and ulcerative colitis from the given list is IL23R. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with urticaria and male breast cancer. Given list is:  TGM2,  TENM2,  HLA-B, RAD51B, GSDMB","[FAIL] The output identifies HLA-B as the associated gene, not RAD51B as specified in the rubric.
+---
+The gene associated with urticaria and male breast cancer from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and psoriasis. Given list is:  MYH7,  ADH1B, MYH7, HLA-B,  PKNOX2","[PASS] The gene associated with allergic rhinitis and psoriasis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and limited scleroderma. Given list is: SNCA,  HLA-DQB1, TLR1,  EPDR1,  SHTN1","[FAIL] The output does not mention TLR1 but instead identifies HLA-DQB1.
+---
+The gene associated with allergic rhinitis and limited scleroderma from the given list is HLA-DQB1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and Takayasus arteritis. Given list is:  MORC4, STN1,  ABO, HLA-B,  PNPLA3","[PASS] The gene associated with allergic rhinitis and Takayasu's arteritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and myelodysplastic syndrome. Given list is:  TRAF3IP2,  FADS1, SHTN1,  ATXN2, HLA-B","[PASS] The gene associated with allergic rhinitis and myelodysplastic syndrome from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and herpes zoster. Given list is:  CHST11, HLA-B,  HLA-DQB1, RELN,  TP53","[PASS] The gene associated with allergic rhinitis and herpes zoster from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and diffuse large B-cell lymphoma. Given list is: HLA-B,  CACNA1A,  TERT,  EPDR1, ATXN2","[PASS] The gene associated with allergic rhinitis and diffuse large B-cell lymphoma from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with allergic rhinitis and psoriatic arthritis. Given list is: HLA-B,  FAM227B,  RP1, FTO,  KIF1B","[PASS] The gene associated with allergic rhinitis and psoriatic arthritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with marginal zone lymphoma and diffuse large B-cell lymphoma. Given list is: FHOD3,  PBX2,  RP1, KALRN,  AHR","[FAIL] The output identifies PBX2 as the gene instead of KALRN, which does not match the rubric.
+---
+The gene associated with marginal zone lymphoma and diffuse large B-cell lymphoma from the given list is PBX2. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and psoriasis. Given list is:  ERAP1, CLPTM1L,  ADGRG6, HLA-B,  MST1","[PASS] The gene associated with diffuse large B-cell lymphoma and psoriasis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and Takayasus arteritis. Given list is:  GTF2I,  HLA-DQA1, HLA-B,  CRTC1, RORA","[PASS] The gene associated with diffuse large B-cell lymphoma and Takayasus arteritis from the given list is **HLA-B**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and myelodysplastic syndrome. Given list is:  IL23R,  TERT, HLA-B, HLA-DQA1,  TNXB","[FAIL] The output identifies TERT as the gene, but the rubric specifies HLA-B, which is not mentioned in the output.
+---
+The gene associated with diffuse large B-cell lymphoma and myelodysplastic syndrome from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and herpes zoster. Given list is:  SNCA,  CDKAL1,  HLA-DQA1, HLA-B, RBFOX1","[PASS] The gene associated with diffuse large B-cell lymphoma and herpes zoster is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and allergic rhinitis. Given list is:  IL2RA,  SLC14A2, HLA-B,  TNFSF13, ZEB2","[FAIL] The output mentions IL2RA as the gene associated with diffuse large B-cell lymphoma and allergic rhinitis, which does not match the rubric's focus on HLA-B.
+---
+The gene associated with diffuse large B-cell lymphoma and allergic rhinitis from the given list is IL2RA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and marginal zone lymphoma. Given list is:  HLA-DPA1, VAV3, KALRN,  IL12RB2,  WNT10A","[FAIL] The output lists VAV3 as the gene associated with the lymphomas, not KALRN as stated in the rubric.
+---
+The gene associated with diffuse large B-cell lymphoma and marginal zone lymphoma from the given list is **VAV3**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with diffuse large B-cell lymphoma and psoriatic arthritis. Given list is:  ARMS2, RORA,  TLR1,  ADH1B, HLA-B","[PASS] The gene associated with diffuse large B-cell lymphoma and psoriatic arthritis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and interstitial lung disease. Given list is: TERT,  YLPM1, FTO,  SHTN1,  IL23R","[PASS] The gene associated with lung adenocarcinoma and interstitial lung disease is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and triple-receptor negative breast cancer. Given list is: BTBD9,  NTM,  RP1, TERT,  CASZ1","[PASS] The gene associated with lung adenocarcinoma and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and idiopathic pulmonary fibrosis. Given list is:  SLC14A2,  SLC14A2,  MTTP, PSCA, TERT","[PASS] The gene associated with lung adenocarcinoma and idiopathic pulmonary fibrosis is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and myeloproliferative neoplasm. Given list is:  TG, CACNB2,  PRKAA1, TERT,  CACNA1S","[PASS] The gene associated with lung adenocarcinoma and myeloproliferative neoplasm from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and central nervous system cancer. Given list is:  POU5F1B,  SCN1A,  STAT4, TERT, BTNL2","[PASS] The gene associated with lung adenocarcinoma and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and estrogen-receptor negative breast cancer. Given list is: JRK,  PLG,  PNPLA3, TERT,  IL23R","[PASS] The gene associated with lung adenocarcinoma and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung adenocarcinoma and lung carcinoma. Given list is: TERT, IL23R,  PHACTR1,  SLC2A9,  JRK","[PASS] The gene associated with lung adenocarcinoma and lung carcinoma from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and psoriasis. Given list is: HLA-B,  DAB2IP,  TYR,  FTO, FAT3","[PASS] The gene associated with psoriatic arthritis and psoriasis from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and Takayasus arteritis. Given list is:  TMC7, HLA-B,  SLC2A9, PCDH7,  PHGDH","[PASS] The gene associated with both psoriatic arthritis and Takayasu's arteritis is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and myelodysplastic syndrome. Given list is:  EPDR1, HLA-B,  SFRP4,  PNPLA3, ARMS2","[PASS] The gene associated with psoriatic arthritis and myelodysplastic syndrome from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and herpes zoster. Given list is:  NANOS1,  TLR1,  NTM, HLA-B, SCN1A","[PASS] The gene associated with psoriatic arthritis and herpes zoster is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and allergic rhinitis. Given list is:  RP1,  STAT4, C5AR1,  TENM2, HLA-B","[FAIL] The output identifies STAT4 as the relevant gene, not HLA-B as stated in the rubric.
+---
+The gene associated with both psoriatic arthritis and allergic rhinitis from the given list is **STAT4**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with psoriatic arthritis and diffuse large B-cell lymphoma. Given list is:  HLA-DQB1, ABCG2,  PTK2B, HLA-B,  RP1","[PASS] The gene associated with both psoriatic arthritis and diffuse large B-cell lymphoma from the given list is HLA-B. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung squamous cell carcinoma and squamous cell carcinoma. Given list is: DTNB, BRCA2,  CCDC33,  IGF1R,  XBP1","[PASS] The gene associated with lung squamous cell carcinoma and squamous cell carcinoma from the given list is **BRCA2**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung squamous cell carcinoma and estrogen-receptor negative breast cancer. Given list is:  STAT4, CACNA2D1,  KIF1B,  ATXN2, BRCA2","[FAIL] The output identifies STAT4 as the associated gene, not BRCA2.
+---
+The gene associated with lung squamous cell carcinoma and estrogen-receptor negative breast cancer from the given list is **STAT4**. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and interstitial lung disease. Given list is:  ATXN2, TERT, FAM227B,  ALDH1A2,  KALRN","[PASS] The gene associated with lung carcinoma and interstitial lung disease from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and triple-receptor negative breast cancer. Given list is: TERT, SLC2A9,  MYBPC3,  HLA-DQA1,  WNT10A","[PASS] The gene associated with lung carcinoma and triple-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and idiopathic pulmonary fibrosis. Given list is:  PRKAG2,  YLPM1, TERT, LOXL1,  HLA-DQB1","[PASS] The gene associated with lung carcinoma and idiopathic pulmonary fibrosis from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and myeloproliferative neoplasm. Given list is: TERT, MST1,  OPTN,  TNRC18,  PSCA","[PASS] The gene associated with lung carcinoma and myeloproliferative neoplasm from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and central nervous system cancer. Given list is:  C9,  GNE,  CDKAL1, TERT, PTPN22","[PASS] The gene associated with lung carcinoma and central nervous system cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and estrogen-receptor negative breast cancer. Given list is:  SAMD9L,  BTNL2, TERT, TERT,  STAT4","[PASS] The gene associated with lung carcinoma and estrogen-receptor negative breast cancer from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with lung carcinoma and lung adenocarcinoma. Given list is:  RP1, RBFOX1,  TP53,  PRKAG2, TERT","[FAIL] The output identifies TP53 as the associated gene rather than TERT.
+---
+The gene associated with lung carcinoma and lung adenocarcinoma from the given list is TP53. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with endometrial cancer and sclerosing cholangitis. Given list is: ATXN2,  FBN1,  STAT3, ADGRG6,  ATG5","[FAIL] The output mentions the gene STAT3, not ATXN2.
+---
+The gene associated with endometrial cancer and sclerosing cholangitis is STAT3. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with uveal melanoma and liver cirrhosis. Given list is:  PRX, CACNA2D1, GTF2I,  ADGRV1,  TERT","[FAIL] The output mentions TERT as the gene, not CACNA2D1.
+---
+The gene associated with uveal melanoma and liver cirrhosis from the given list is TERT. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with uveal melanoma and head and neck cancer. Given list is:  USHBP1,  BARD1, GNE, CACNA2D1,  SAMM50","[FAIL] The output mentions BARD1, not CACNA2D1, as the gene associated with the stated conditions.
+---
+The gene associated with uveal melanoma and head and neck cancer from the given list is BARD1. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with gastric fundus cancer and duodenal ulcer. Given list is:  GSDMB, PSCA, CDKAL1,  EML4,  ADH1B","[PASS] The gene associated with gastric fundus cancer and duodenal ulcer is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Gene is associated with gastric fundus cancer and atrophic gastritis. Given list is: PSCA,  PLG, IL23R,  ABO,  RP1","[PASS] The gene associated with gastric fundus cancer and atrophic gastritis from the given list is PSCA. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with breast carcinoma and male breast cancer. Given list is:  rs11651755, rs9271588,  rs2472493, rs3803662,  rs4459895","[PASS] The variant associated with breast carcinoma and male breast cancer from the given list is rs3803662. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with abdominal aortic aneurysm and thoracic aortic aneurysm. Given list is:  rs11675342, rs595244, rs3018362,  rs11651755,  rs1709393","[FAIL] The variant mentioned in the output is rs11675342, which does not match rs595244 from the rubric.
+---
+The variant associated with abdominal aortic aneurysm and thoracic aortic aneurysm is rs11675342. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with Kawasaki disease and inflammatory bowel disease. Given list is: rs573872,  rs2072499,  rs1333040, rs1801274,  rs3757318","[FAIL] The output identifies rs2072499 as the variant, not rs1801274.
+---
+The variant associated with Kawasaki disease and inflammatory bowel disease from the given list is rs2072499. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with inflammatory bowel disease and Kawasaki disease. Given list is: rs3764147, rs1801274,  rs3814113,  rs479844,  rs13141641","[FAIL] The output mentions rs3764147, but the rubric specifies rs1801274.
+---
+The variant associated with inflammatory bowel disease and Kawasaki disease is rs3764147. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with triple-receptor negative breast cancer and uterine fibroid. Given list is:  rs4459895,  rs8176719, rs115879499, rs78378222,  rs2143571","[FAIL] The output mentions rs4459895, not rs78378222.
+---
+The variant associated with triple-receptor negative breast cancer and uterine fibroid is rs4459895. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with vitiligo and rheumatoid arthritis. Given list is: rs12203592,  rs10103692,  rs78378222, rs2476601,  rs1150757","[PASS] The variant associated with vitiligo and rheumatoid arthritis from the given list is rs2476601. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with male breast cancer and breast carcinoma. Given list is: rs3803662,  rs34574566,  rs1278769, rs16948876,  rs10488631","[PASS] The variant associated with male breast cancer and breast carcinoma from the given list is rs3803662. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with autoimmune hepatitis and collagenous colitis. Given list is: rs17398575,  rs1975197, rs2187668,  rs6444305,  rs2230199","[FAIL] The provided output mentions rs2230199, not rs2187668.
+---
+The variant associated with autoimmune hepatitis and collagenous colitis is rs2230199. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with autoimmune hepatitis and cutaneous lupus erythematosus. Given list is: rs2187668, rs11724804,  rs10497394,  rs1801274,  rs6457327","[FAIL] The output mentions rs11724804, not rs2187668 as required by the rubric.
+---
+The variant associated with autoimmune hepatitis and cutaneous lupus erythematosus is rs11724804. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with ankylosing spondylitis and Crohns disease. Given list is:  rs219780, rs11209026,  rs1233491, rs1953126,  rs2294008","[PASS] The variant associated with ankylosing spondylitis and Crohn's disease from the given list is rs11209026. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with rheumatoid arthritis and vitiligo. Given list is:  rs7176508,  rs11675342,  rs3018362, rs6426833, rs2476601","[PASS] The variant associated with rheumatoid arthritis and vitiligo is rs2476601. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with collagenous colitis and autoimmune hepatitis. Given list is: rs2187668,  rs6426833, rs6969780,  rs3787184,  rs230540","[PASS] The variant associated with collagenous colitis and autoimmune hepatitis is rs2187668. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with collagenous colitis and cutaneous lupus erythematosus. Given list is: rs2187668, rs975730,  rs17398575,  rs229527,  rs1537377","[PASS] The variant associated with collagenous colitis and cutaneous lupus erythematosus is rs2187668. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with age related macular degeneration and Kuhnt-Junius degeneration. Given list is:  rs7579899, rs3803662,  rs76972608, rs10490924,  rs16948876","[PASS] The variant associated with age-related macular degeneration and Kuhnt-Junius degeneration is rs10490924. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with Kuhnt-Junius degeneration and age related macular degeneration. Given list is:  rs219780,  rs3197999,  rs4072037, rs6691768, rs10490924","[PASS] The variant associated with Kuhnt-Junius degeneration and age-related macular degeneration is rs10490924. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with duodenal ulcer and atrophic gastritis. Given list is:  rs1975197, rs2294008,  rs17398575, rs755383,  rs1801274","[FAIL] The output mentions rs1801274, not rs2294008 as specified in the rubric.
+---
+The variant associated with duodenal ulcer and atrophic gastritis is rs1801274. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with duodenal ulcer and gastric fundus cancer. Given list is: rs2294008,  rs10490924,  rs2738048, rs711830,  rs167479","[PASS] The variant associated with duodenal ulcer and gastric fundus cancer is rs2294008. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with uterine fibroid and triple-receptor negative breast cancer. Given list is: rs1709393,  rs3118470,  rs1107345, rs78378222,  rs1122171","[FAIL] The output mentions rs1107345, not rs78378222.
+---
+The variant associated with uterine fibroid and triple-receptor negative breast cancer is rs1107345. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with prostate carcinoma and large intestine cancer. Given list is: rs6983267,  rs1150757,  rs3129939, rs12917707,  rs595244","[PASS] The variant associated with prostate carcinoma and large intestine cancer is rs6983267. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with squamous cell carcinoma and androgenic alopecia. Given list is:  rs10455872, rs1011970,  rs3814113, rs12203592,  rs116264669","[FAIL] The output references rs10455872, not rs12203592.
+---
+The variant associated with squamous cell carcinoma and androgenic alopecia is rs10455872. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with androgenic alopecia and squamous cell carcinoma. Given list is:  rs10273639,  rs334, rs595244,  rs6457327, rs12203592","[PASS] The variant associated with androgenic alopecia and squamous cell carcinoma is rs12203592. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with sclerosing cholangitis and Crohns disease. Given list is: rs3197999,  rs59325236,  rs6444305, rs1122171,  rs1314913","[FAIL] The content mentions rs1314913, not rs3197999 as specified in the rubric.
+---
+The variant associated with sclerosing cholangitis and Crohn's disease is rs1314913. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with large intestine cancer and prostate carcinoma. Given list is: rs1107345,  rs59325236,  rs12203592, rs6983267,  rs11675342","[PASS] The variant associated with large intestine cancer and prostate carcinoma from the given list is rs6983267. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with atrophic gastritis and duodenal ulcer. Given list is:  rs4459895,  rs12203592,  rs9275260, rs12524487, rs2294008","[FAIL] The mentioned variant in the output is rs12203592, not rs2294008.
+---
+The variant associated with atrophic gastritis and duodenal ulcer is rs12203592. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with atrophic gastritis and gastric fundus cancer. Given list is: rs2294008,  rs9257809,  rs35705950, rs12539707,  rs2738048","[PASS] The variant associated with atrophic gastritis and gastric fundus cancer is rs2294008. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with cutaneous lupus erythematosus and autoimmune hepatitis. Given list is: rs1937450, rs2187668,  rs6010620,  rs2231142,  rs10455872","[FAIL] The variant mentioned in the output is rs2231142, not rs2187668 as specified in the rubric.
+---
+The variant associated with cutaneous lupus erythematosus and autoimmune hepatitis is rs2231142. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with cutaneous lupus erythematosus and collagenous colitis. Given list is:  rs4939827,  rs3197999,  rs3739821, rs2187668, rs1975197","[FAIL] The output mentions rs3197999, not rs2187668 as specified in the rubric.
+---
+The variant associated with cutaneous lupus erythematosus and collagenous colitis is rs3197999. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with central nervous system cancer and lung adenocarcinoma. Given list is: rs7426056, rs2736100,  rs2187668,  rs2107595,  rs7405776","[PASS] The variant associated with central nervous system cancer and lung adenocarcinoma is rs2736100. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with thoracic aortic aneurysm and abdominal aortic aneurysm. Given list is: rs1642764, rs595244,  rs139606545,  rs12077210,  rs12917707","[FAIL] The output mentions rs1642764, not rs595244 as stated in the rubric.
+---
+The variant associated with thoracic aortic aneurysm and abdominal aortic aneurysm is rs1642764. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with Crohns disease and ankylosing spondylitis. Given list is:  rs8077245,  rs11712066, rs11209026,  rs10830962, rs6010620","[PASS] The variant associated with both Crohn's disease and ankylosing spondylitis is rs11209026. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with Crohns disease and sclerosing cholangitis. Given list is:  rs1047891,  rs9268905, rs3197999,  rs1025128, rs4624820","[FAIL] The output mentions rs1047891, not rs3197999.
+---
+The variant associated with Crohn's disease and sclerosing cholangitis is rs1047891. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with lung adenocarcinoma and central nervous system cancer. Given list is:  rs10490924,  rs10830962, rs2736100, rs2391769,  rs9272143","[FAIL] The output mentions rs10490924, not rs2736100.
+---
+The variant associated with lung adenocarcinoma and central nervous system cancer is rs10490924. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with gastric fundus cancer and duodenal ulcer. Given list is:  rs11759064, rs975730,  rs1150757, rs2294008,  rs7453920","[FAIL] The output mentions rs11759064, not rs2294008 as specified in the rubric.
+---
+The variant associated with gastric fundus cancer and duodenal ulcer is rs11759064. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with gastric fundus cancer and atrophic gastritis. Given list is: rs2294008,  rs2072499,  rs3197999, rs1537377,  rs988958","[PASS] The variant associated with gastric fundus cancer and atrophic gastritis is rs2294008. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with keratinocyte carcinoma@e and skin sensitivity to sun. Given list is:  rs254020,  rs4625, rs6059655, rs11738191,  rs2963222","[FAIL] The output references rs11738191 and does not mention rs6059655.
+---
+The variant associated with keratinocyte carcinoma and skin sensitivity to sun is rs11738191. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with keratinocyte carcinoma@e and anti-neutrophil antibody associated vasculitis. Given list is: rs6679677,  rs12187903, rs1333047,  rs11585651,  rs55730499","[FAIL] The output mentions rs12187903 instead of rs6679677.
+---
+The variant associated with keratinocyte carcinoma and anti-neutrophil antibody associated vasculitis is rs12187903. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with keratinocyte carcinoma@e and autoimmune disease. Given list is: rs7936312,  rs325485,  rs13191786, rs72928038,  rs7523907","[FAIL] The output references rs13191786 but does not mention rs72928038 as required by the rubric.
+---
+The variant associated with keratinocyte carcinoma and autoimmune disease from the given list is rs13191786. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with keratinocyte carcinoma@e and age-related hearing impairment. Given list is: rs1950829,  rs13263709, rs1126809,  rs34871267,  rs2431108","[PASS] The variant associated with keratinocyte carcinoma and age-related hearing impairment is rs1126809. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with aortic stenosis and large artery stroke. Given list is:  rs34243448, rs1893592,  rs1765871,  rs229541, rs10455872","[PASS] The variant associated with aortic stenosis and large artery stroke is rs10455872. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with skin sensitivity to sun and keratinocyte carcinoma@e. Given list is:  rs1042704, rs6059655,  rs34396849, rs10052804,  rs11747125","[FAIL] The content refers to rs1042704, not rs6059655.
+---
+The variant associated with skin sensitivity to sun and keratinocyte carcinoma is rs1042704. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with skin sensitivity to sun and age-related hearing impairment. Given list is:  rs61815704, rs4149909,  rs36001488,  rs1333047, rs1126809","[FAIL] The output mentions rs4149909, not rs1126809 as specified in the rubric.
+---
+The variant associated with skin sensitivity to sun and age-related hearing impairment is rs4149909. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with anti-neutrophil antibody associated vasculitis and keratinocyte carcinoma@e. Given list is: rs2812378,  rs17145188,  rs12931267, rs6679677,  rs12413409","[FAIL] The output mentions rs2812378, not rs6679677.
+---
+The variant associated with anti-neutrophil antibody associated vasculitis and keratinocyte carcinoma is rs2812378. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with anti-neutrophil antibody associated vasculitis and autoimmune disease. Given list is:  rs17293632,  rs2487928, rs429358,  rs6679677, rs6679677","[FAIL] The output mentions rs17293632, not rs6679677 as specified in the rubric.
+---
+The variant associated with anti-neutrophil antibody associated vasculitis and autoimmune disease is rs17293632. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with autoimmune disease and keratinocyte carcinoma@e. Given list is:  rs259919, rs10455872,  rs11958220, rs72928038,  rs141343442","[FAIL] The output mentions rs10455872, not rs72928038 as specified in the rubric.
+---
+The variant associated with autoimmune disease and keratinocyte carcinoma is rs10455872. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with autoimmune disease and anti-neutrophil antibody associated vasculitis. Given list is: rs2310752,  rs7528604, rs6679677,  rs34691223,  rs2963222","[FAIL] The output mentions rs2310752, which is not rs6679677 as specified in the rubric.
+---
+The variant associated with autoimmune disease and anti-neutrophil antibody associated vasculitis is rs2310752. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with autoimmune disease and atopic asthma. Given list is: rs62324212,  rs10059133,  rs149943,  rs12931267, rs17156671","[FAIL] The output mentions rs10059133 as the variant associated with autoimmune disease and atopic asthma, not rs62324212.
+---
+The variant associated with autoimmune disease and atopic asthma from the given list is rs10059133. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with large artery stroke and aortic stenosis. Given list is: rs10455872,  rs35781323,  rs4615152, rs761934676,  rs11965538","[PASS] The variant associated with large artery stroke and aortic stenosis is rs10455872. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with age-related hearing impairment and keratinocyte carcinoma@e. Given list is:  rs259919, rs2503199,  rs325485, rs1126809,  rs229541","[PASS] The variant associated with age-related hearing impairment and keratinocyte carcinoma is rs1126809. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with age-related hearing impairment and skin sensitivity to sun. Given list is: rs1126809,  rs416223, rs12722502,  rs9419958,  rs1333049","[FAIL] The output mentions rs12722502, which does not match rs1126809 specified in the rubric.
+---
+The variant associated with age-related hearing impairment and skin sensitivity to sun is rs12722502. 
+
+Provenance of this association is GWAS Catalog."
+"Out of the given list, which Variant is associated with atopic asthma and autoimmune disease. Given list is: rs2447827,  rs1937455, rs62324212,  rs12205199,  rs4482879","[FAIL] The output mentions rs2447827, but the rubric specifies rs62324212.
+---
+The variant associated with atopic asthma and autoimmune disease from the given list is rs2447827. 
+
+Provenance of this association is GWAS Catalog."
