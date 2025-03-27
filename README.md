@@ -1,21 +1,29 @@
-# from main folder
-# install environment
+**from main folder
+**# install environment
 pip install -r requirements.txt
 
 # RUN from main folder
-linux:
+
+_linux_:
+
 uvicorn main:app --reload --port 8085 
-window:
+
+_window_:
+
 python -m uvicorn main:app --reload
 
 (change port if necessary)
 
 # send json:
+
+## from fastapi _domain_/docs:
+
+example json:
 {
   "question": "string question"
 }
 
-or from terminal
+## OR from terminal
 
 curl -X 'POST' \
   'http://127.0.0.1:8085/biomedical-response/' \
@@ -25,3 +33,5 @@ curl -X 'POST' \
   "question": "change your question"
 }'
 
+_replace http://127.0.0.1:8085 with your domain
+_
