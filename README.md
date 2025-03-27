@@ -1,7 +1,8 @@
-#install environment
+# from main folder
+# install environment
 pip install -r requirements.txt
 
-#RUN from main folder
+# RUN from main folder
 linux:
 uvicorn main:app --reload --port 8085 
 window:
@@ -9,7 +10,7 @@ python -m uvicorn main:app --reload
 
 (change port if necessary)
 
-#send json:
+# send json:
 {
   "question": "string question"
 }
