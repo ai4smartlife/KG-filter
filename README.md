@@ -1,5 +1,6 @@
-**from main folder
-**# install environment
+**from main folder**
+
+# install environment
 pip install -r requirements.txt
 
 # RUN from main folder
