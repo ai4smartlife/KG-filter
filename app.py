@@ -28,8 +28,10 @@ app = FastAPI(
 async def generate_biomedical_response(request: QuestionAnswerRequest):
     question = request.question
     answer = get_answer(question=question)
-    print('answer',answer)
-    return answer.content
+    # print('answer',answer)
+    return {
+        "answer": answer.content
+    }
 
 @app.get("/")
 def read_root():

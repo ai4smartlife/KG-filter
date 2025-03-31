@@ -5,8 +5,10 @@ from utils.constant import SELF_RELATIONSHIPS
 from langchain_core.prompts import PromptTemplate
 from utils.get_env_variables import *
 from utils.get_llm import gemini_2_flash, chatgpt4o, deepseek, chatgpt4tubo
+from services.notification_service import send_message
 
 def get_similar_diseases(sub_graphs):
+    # send_message('Exploring similar diseases to the extracted diseases entities ...')
     triplets = []
     for neighbor_based_subgraph in sub_graphs['neighbor_based_subgraphs']:
         triplets.extend( 
@@ -51,24 +53,26 @@ def fetch_final_answer(question, context, llm=gemini_2_flash):
 def get_answer(question):
     entities = []
     entities = recognize_disease_entity(question)
-    print('entities',entities)
+    # send_message('entities: '+entity for entity in entities)
     list_nodes_in = get_nodes_in_question(question)
-    print('list_nodes_in',list_nodes_in)
+    # send_message('list nodes: '+list_node_in for list_node_in in list_nodes_in)
     relationships = get_relationship_in_question(list_nodes_in)
-    print('relationships',relationships)
+    # send_message('relationships: ' +relationship for relationship in relationships)
     subgraphs = explore_subgraph_evidence(list_node_names=entities, relationships=relationships)
     print('subgraphs',subgraphs)
     neighbor_based_subgraphs = get_all_neighbor_graph(subgraphs)
-    print('neighbor_based_subgraphs',neighbor_based_subgraphs)
+    # print('neighbor_based_subgraphs',neighbor_based_subgraphs)
     similar_diseases = get_similar_diseases(sub_graphs=explore_subgraph_evidence(list_node_names=entities, relationships=SELF_RELATIONSHIPS))
-    print('similar_diseases',similar_diseases)
+    # send_message('similar_diseases: '+similar_disease for similar_disease in similar_diseases)
     subgraphs_similar_diseases = explore_subgraph_evidence(list_node_names=similar_diseases,relationships=relationships)
 
+    # send_message('Mapping the relationships to the similar diseases ...')
     neighbor_based_subgraphs.extend(get_all_neighbor_graph(subgraphs_similar_diseases))
     result = [' '.join(neighbor_based_subgraph) for neighbor_based_subgraph in neighbor_based_subgraphs]
     result = list(set(result))
 
+    # send_message('Gathering all the context ...')
     context = '. '.join(result)
-    # print(context,'context')
+    print(context,'context')
     output_all = fetch_final_answer(question=question, context=context, llm=gemini_2_flash)
     return output_all

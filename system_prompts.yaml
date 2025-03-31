@@ -240,10 +240,10 @@ FINAL_ANSWER_PROMPT_TEMPLATE: |
   - Direct Answer: Answer the question above. If it is a yes-no question, remember to answer True or False (not YES or NO). Indicate whether the syndrome, disease, or medical condition mentioned in the question is associated with the gene, drug, pathway, disease, or other entity referenced. If so, what evidence supports this conclusion? If not, state why based on the knowledge graph.
   Additionally, explain how you arrived at the conclusion by extracting relevant knowledge sources from the Path-based Evidence and Neighbor-based Evidence. 
 
-  - Output1: Direct answer indicating whether the syndrome/disease/condition is associated with the gene(s)/symtomp(s)/drug(s)/entity(ies), supported by relevant evidence from the knowledge graph.
+  - Direct answer indicating whether the syndrome/disease/condition is associated with the gene(s)/symtomp(s)/drug(s)/entity(ies), supported by relevant evidence from the knowledge graph.
 
-  - Output2: Show me the inference process as a string about how you extracted relevant knowledge from Path-based Evidence and Neighbor-based Evidence, and how that led to your conclusion. Use the format:
+  - Show me the inference process as a string about how you extracted relevant knowledge from Path-based Evidence and Neighbor-based Evidence, and how that led to your conclusion. Use the format:
   Path-based Evidence number('entity name'->'relation name'->...)->Path-based Evidence number('entity name'->'relation name'->...)->Neighbor-based Evidence number('entity name'->'relation name'->...)->Neighbor-based Evidence number('entity name'->'relation name'->...)->result number('entity name')->...
   
-  - Output3: Provide provenance
+  - Provide provenance
 

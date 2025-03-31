@@ -2,9 +2,11 @@ from langchain.schema import HumanMessage, SystemMessage
 from utils.get_llm import gemini_2_flash, chatgroq
 from utils.get_env_variables import EXPLORE_KG_NODETYPES, EXPLORE_KG_RELATIONSHIP
 from utils.constant import NODE_TYPES, RELATIONSHIP_TYPES
+from services.notification_service import send_message
 
 def get_nodes_in_question(question, llm=gemini_2_flash):
-    print('question',question)
+    # send_message('Extracting relevant node types from question ...')
+    # print('Question: ',question)
     messages = [
         (
             SystemMessage(EXPLORE_KG_NODETYPES)
@@ -19,6 +21,7 @@ def get_nodes_in_question(question, llm=gemini_2_flash):
     return nodes_in
 
 def get_relationship_in_question(nodes_in, llm=chatgroq):
+    # send_message('Extracting relevant relationships from question ...')
     nodes_in_str = ", ".join(nodes_in)
 
     messages_rela = [
