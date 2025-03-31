@@ -1,4 +1,4 @@
-**from main folder**
+**from AI folder**
 
 # install environment
 pip install -r requirements.txt
@@ -21,7 +21,7 @@ python -m uvicorn main:app --reload
 
 example json:
 {
-  "question": "string question"
+  "question": "string"
 }
 
 ## OR from terminal
