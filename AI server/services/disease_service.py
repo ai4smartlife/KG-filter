@@ -32,7 +32,7 @@ def fetch_llm_response(question, llm=gemini_2_flash, system_prompt=SYSTEM_PROMPT
 
 def extract_disease_entity(question):
     # resp = gemini_2_flash
-    send_message('Extracting disease entities from question ...')
+    # send_message('Extracting disease entities from question ...')
     resp = fetch_llm_response(question=question, llm=gemini_2_flash, system_prompt=DISEASE_ENTITY_EXTRACTION)
     json_resp = get_json_string(resp)
     try:
@@ -43,7 +43,7 @@ def extract_disease_entity(question):
         entities = entity_dict.get("Diseases", [])
         diseases = []
         
-        send_message('Matching entities to diseases in database ...')
+        # send_message('Matching entities to diseases in database ...')
         for entity in entities: # matching entities
             search_results = search_qdrant(disease_name=entity, limit=1)
             diseases.extend(disease.payload['name'] for disease in search_results)

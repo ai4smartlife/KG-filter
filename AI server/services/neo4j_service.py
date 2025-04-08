@@ -120,7 +120,7 @@ def search_neighbors_neo4j(node_name, relationships=None):
             return []
 
 def explore_subgraph_evidence(list_node_names, relationships=None):
-    send_message('Exploring evidence graphs from Neo4j ...')
+    # send_message('Exploring evidence graphs from Neo4j ...')
     neighbor_based_subgraphs = []
     for node_name in list_node_names:
         neighbor_graph = search_neighbors_neo4j(node_name, relationships)
