@@ -1,17 +1,12 @@
-# Use a Python base image
 FROM python:3.11
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy project files into the container
 COPY . /app
 
-# Install virtualenv and create a virtual environment
-RUN python -m venv venv
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
-# Activate venv and install dependencies
-RUN /bin/bash -c "source venv/bin/activate && pip install -r requirements.txt"
+EXPOSE 8085
 
-# Set the entrypoint (optional)
-CMD ["/bin/bash"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8085", "--reload"]
